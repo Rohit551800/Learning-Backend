@@ -5,6 +5,11 @@ const div = (a,b) =>{ return a / b; };
 const PI = 3.14;
 
 
-module.exports = {
-    add  , sub , mul , div , PI
-}
+// module.exports = {
+//     add  , sub , mul , div , PI
+// }
+
+
+// export default add ;
+
+export {add , sub , mul , div};
