@@ -4,25 +4,25 @@ const fs = require("fs");
 const path = require("path");
 
 const fileName = "data.txt";
-const fileaPath = path.join(__dirname , fileName);
+const filePath = path.join(__dirname , fileName);
 
 
 //Creating file / Writing File 
-// const writeFile = fs.writeFileSync(fileaPath , "This is intial commit " , "utf-8");
+// const writeFile = fs.writeFileSync(filePath , "This is intial commit " , "utf-8");
 
 //Reading File
-// const readFile = fs.readFileSync(fileaPath , "utf-8");
+// const readFile = fs.readFileSync(filePath , "utf-8");
 // console.log(readFile);
 
 
 //Append File /Update File
 
-// const appendFile = fs.appendFileSync(fileaPath , "\n Rohit Singh Gouria updated the file data");
+// const appendFile = fs.appendFileSync(filePath , "\n Rohit Singh Gouria updated the file data");
 
 
 //deleting the file or unlink the file
 
-// const unlinkFile = fs.unlinkSync(fileaPath);
+// const unlinkFile = fs.unlinkSync(filePath);
 
 
 //Renaming the file
@@ -30,4 +30,4 @@ const fileaPath = path.join(__dirname , fileName);
 const newFileName = "newFile.txt";
 const newFilePath = path.join(__dirname , newFileName);
 
-const renameFile = fs.renameSync(fileaPath , newFilePath);
+const renameFile = fs.renameSync(filePath , newFilePath);
